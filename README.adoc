@@ -1,0 +1,48 @@
+= Kubernetes on RaspberryPi Cluster
+:doctype: article
+
+
+== Installation
+
+The instructions for setting up a kubernetes cluster on raspberry pi.
+There are many tutorials for getting the cluster configured.
+
+* <<entechlog>>
+* <<tonysimon>>
+* <<alexellis>>
+* <<microk8spi>>
+
+I am following <<microk8spi>>.
+
+
+We use <<etcher>> to write images to an SDCard.
+<<etcher>> is available as a Chocolatey package.
+
+
+== Load Balancer
+
+
+* <<metallb>>
+* <<openelb>>
+
+
+[bibliography]
+== Bibliography
+
+* [[asciidoc]] __AsciiDoc Language Documentation__ https://docs.asciidoctor.org/asciidoc/latest
+* [[etcher]] __Belena Etcher__ https://www.balena.io/etcher/
+* [[openelb]] __OpenELB__ https://github.com/openelb/openelb
+* [[metallb]] __MetalLB__ https://github.com/metallb/metallb
+
+* [[entechlog]] __How to set up Kubernetes cluster with Raspberry Pi__
+https://www.entechlog.com/blog/general/how-to-set-up-kubernetes-cluster-with-raspberry-pi/
+
+* [[tonysimon]] __Building a bare-metal Kubernetes cluster on Raspberry Pi__
+https://anthonynsimon.com/blog/kubernetes-cluster-raspberry-pi/
+* [[alexellis]] __Walk-through -- install Kubernetes to your Raspberry Pi in 15 minutes__
+https://alexellisuk.medium.com/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a
+* [[microk8spi]] __How to build a Raspberry Pi Kubernetes cluster using MicroK8s__
+https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#1-overview
+
+* [[zdnetreview]] __Canonical's mini-Kubernetes, MicroK8s, has been optimized for Raspberry Pi__
+https://www.zdnet.com/article/canonicals-mini-kubernetes-microk8s-has-been-optimized-for-raspberry-pi/
